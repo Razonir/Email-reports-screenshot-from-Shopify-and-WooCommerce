@@ -1,5 +1,5 @@
 
-# DayTask
+# Email reports screenshot from Shopify and WooCommerce
 
 ## Description
 Automation that connects to Shopify and WooCommerce accounts and
