@@ -184,9 +184,9 @@ def dynamicFunction(website, manager, client, name, email, password):
 
 def start():
 
-    dynamicFunction("wordpress", "TO", "WEBSITE NAME", "WEBSITE NAME",    "USERNAME", "PASSWORD")  # bodyshop itsik
-    dynamicFunction("shopify", "TO","SHOPIFY NAME",  "WEBSITE NAME", "USERNAME", "PASSWORD")  # loopi tomer
-
+    dynamicFunction("wordpress", "TO", "WEBSITE NAME", "WEBSITE NAME",    "USERNAME", "PASSWORD") 
+    dynamicFunction("shopify", "TO","SHOPIFY NAME",  "WEBSITE NAME", "USERNAME", "PASSWORD") 
+    
 # schedule the function to run every day at 08:30
 schedule.every().day.at("08:30").do(start())
 
